@@ -1,4 +1,4 @@
-const handler = require('./server.js').handler;
+const handler = require('../server.js').handler;
 const test = require('tape');
 
 const endpoints = [
@@ -29,4 +29,3 @@ endpoints.forEach((endpoint) => {
 });
 
 test.onFinish(() => process.exit(0));
-

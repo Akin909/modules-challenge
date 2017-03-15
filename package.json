@@ -2,9 +2,9 @@
   "name": "morning-challenge2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./js/index.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape tests/test.js"
   },
   "keywords": [],
   "author": "",
